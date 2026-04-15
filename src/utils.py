@@ -1,5 +1,4 @@
-
-import fitz  # PyMuPDF
+import fitz
 
 def extract_text(file):
     doc = fitz.open(stream=file.read(), filetype="pdf")
