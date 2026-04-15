@@ -36,6 +36,29 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
+## Output
+After uploading a resume and pasting a job description, the app displays:
+
+- **Overall Match Score** as a percentage
+- **Matched Keywords** found in both the resume and job description
+- **Missing Keywords** that appear in the job description but not strongly in the resume
+- **Top Resume Terms** based on resume text frequency
+- **Resume Text Preview** and **Job Description Preview** for quick validation
+
+### Sample Output
+```text
+Match Score: 78.4%
+
+Matched Keywords:
+python, machine-learning, streamlit, nlp, api
+
+Missing Keywords:
+docker, kubernetes, aws, monitoring
+
+Top Resume Terms:
+python (8), ai (6), ml (5), streamlit (4), api (3)
+```
+
 ## What It Demonstrates
 - NLP-based resume analysis
 - Embedding-based semantic similarity
