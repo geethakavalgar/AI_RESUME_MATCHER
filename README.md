@@ -58,6 +58,8 @@ docker, kubernetes, aws, monitoring
 Top Resume Terms:
 python (8), ai (6), ml (5), streamlit (4), api (3)
 ```
+### Screenshot
+![App Screenshot](output/resume-matcher-demo_1.png)
 
 ## What It Demonstrates
 - NLP-based resume analysis
